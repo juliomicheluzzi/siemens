@@ -1552,46 +1552,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'MainScreen_salvo para garantir'.Button2.OnSelect"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'MainScreen_salvo para garantir'.Button2.OnSelect",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 7,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "Compact"
-                  }
-                }
-              },
-              "properties": {
-                "member": "OnSelect",
-                "module": "MainScreen_salvo para garantir",
-                "type": "'MainScreen_salvo para garantir'.Button2"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Compact"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'MainScreen_salvo para garantir'.PdfViewer1.Document"
                 }
               ],
@@ -1618,6 +1578,46 @@
           "message": {
             "arguments": [
               "VarPDF"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'MainScreen_salvo para garantir'.Button2.OnSelect"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'MainScreen_salvo para garantir'.Button2.OnSelect",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 0,
+                  "snippet": {
+                    "text": "Compact"
+                  }
+                }
+              },
+              "properties": {
+                "member": "OnSelect",
+                "module": "MainScreen_salvo para garantir",
+                "type": "'MainScreen_salvo para garantir'.Button2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Compact"
             ],
             "id": "issue"
           },
