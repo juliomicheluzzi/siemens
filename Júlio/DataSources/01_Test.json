@@ -1,0 +1,108 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_01_tests",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_01_test",
+    "Name": "01_Test",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "{Attachments}": "Attachments",
+      "activestageid": "Active Stage",
+      "activestagestartedon": "Active Stage Started On",
+      "bpf_contexturl": "Context URL",
+      "bpf_duration": "Duration",
+      "bpf_name": "Name",
+      "bpf_new_01_test_new_01_test": "01_Test (bpf_new_01_test_new_01_test)",
+      "bpf_new_01_testid": "New_01_Test",
+      "businessprocessflowinstanceid": "01_Test (businessprocessflowinstanceid)",
+      "completedon": "Completed On",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "new_01_test_Annotations": "Notes",
+      "new_01_test_AsyncOperations": "System Jobs",
+      "new_01_test_BulkDeleteFailures": "Bulk Delete Failures",
+      "new_01_test_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "new_01_test_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "new_01_test_ProcessSession": "Process Sessions",
+      "new_01_test_SyncErrors": "Sync Errors",
+      "new_01_test_WorkflowLogs": "Process Logs",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "processid": "Process",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "traversedpath": "Traversed Path",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "01_Test",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "01_Test (Modos de exibição)",
+    "Name": "_new_01_test_views",
+    "RelatedEntityName": "01_Test",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "29d804ff-bb9d-4259-b4fc-d5bdc8dd96f6": "All 01_Test",
+      "3eeffa6f-cbd6-4120-a633-dc01284453b5": "Active 01_Test",
+      "9084d052-cd0a-459b-ba59-a9c85d674a97": "Inactive 01_Test",
+      "abeb1bab-1447-4499-ba52-7f66f6b3fa74": "01_Test Advanced Find View",
+      "e8b6493b-352a-4379-a682-9a6c09d030e7": "01_Test Associated View",
+      "ef38792a-724a-4f44-b3c1-864497290d38": "01_Test Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (01_Test)",
+    "Name": "new_01_test_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "01_Test"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "01_Test",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (01_Test)",
+    "Name": "new_01_test_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Finished",
+      "3": "Aborted"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "01_Test"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "01_Test",
+    "Type": "OptionSetInfo"
+  }
+]

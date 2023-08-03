@@ -1,0 +1,53 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2023-06-06T16:15:48.6930000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Anexos",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Nome de arquivo com extensão",
+      "{FullPath}": "Caminho Completo",
+      "{HasAttachments}": "Tem anexos",
+      "{Identifier}": "Identificador",
+      "{IsFolder}": "ÉPasta",
+      "{Link}": "Link para o item",
+      "{ModerationComment}": "Comentários associados à aprovação de conteúdo deste item de lista",
+      "{ModerationStatus}": "Status de aprovação de conteúdo",
+      "{Name}": "Nome",
+      "{Path}": "Caminho da pasta",
+      "{Thumbnail}": "Thumbnail",
+      "{TriggerWindowEndToken}": "Token de Fim da Janela de Acionamento",
+      "{TriggerWindowStartToken}": "Token de Início da Janela de Acionamento",
+      "{VersionNumber}": "Número da versão",
+      "Atividadesemandamento": "Atividades em Andamento",
+      "Author": "Criado por",
+      "Author#Claims": "Criado por Claims",
+      "ComplianceAssetId": "ID de Ativo de Conformidade",
+      "Created": "Criado",
+      "Editor": "Modificado por",
+      "Editor#Claims": "Modificado por Claims",
+      "Highlights": "Highlights",
+      "ID": "ID",
+      "LID": "LID",
+      "Lowlights": "Lowlights",
+      "Modified": "Modificado",
+      "NomeDoProjeto": "Demanda",
+      "OData__ColorTag": "Pressione Delete para excluir o ícone.",
+      "Pend_x00ea_ncias": "Pendências",
+      "Riscos": "Riscos",
+      "ScrumMaster1": "Scrum Master",
+      "ScrumMaster1#Claims": "Scrum Master Claims",
+      "Title": "Título"
+    },
+    "DatasetName": "https://siemens.sharepoint.com/teams/Novoescritorio",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Teste",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

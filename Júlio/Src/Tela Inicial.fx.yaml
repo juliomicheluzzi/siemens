@@ -1,0 +1,107 @@
+"'Tela Inicial' As screen.'tabletLayout_Tutorial_ver3.0'":
+    Fill: =RGBA(255,255,255,1)
+    LoadingSpinnerColor: =RGBA(211, 66, 9, 1)
+
+    RectTextBkg1 As rectangle:
+        BorderColor: =RGBA(131, 24, 75, 1)
+        Fill: =ColorFade(RGBA(255, 211, 205, 1), 70%)
+        Height: =Parent.Height
+        Width: =Parent.Width / 2
+        X: =Parent.Width/2
+        ZIndex: =1
+
+    Image1 As image:
+        BorderColor: =RGBA(172, 62, 11, 1)
+        BorderThickness: =5
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Height: =280
+        Image: =User().Image
+        RadiusBottomLeft: =180
+        RadiusBottomRight: =180
+        RadiusTopLeft: =180
+        RadiusTopRight: =180
+        Width: =281
+        X: =204
+        Y: =76
+        ZIndex: =2
+
+    Label1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(131, 24, 75, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =156
+        Size: =13
+        Text: |-
+            ="Bem Vindo "& User().FullName&
+             " Clique em editar para atualizar o status de seu projeto e enviar!"
+        Width: =444
+        X: =123
+        Y: =366
+        ZIndex: =3
+
+    Button1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        Fill: =RGBA(211, 66, 9, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
+        OnSelect: |-
+            =Set(VarUser, User().Email)&
+            Navigate(MainScreen, Transition.None)
+        Size: =15
+        Text: ="Editar"
+        Width: =280
+        X: =205
+        Y: =532
+        ZIndex: =4
+
+    Button1_1 As button:
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        DisabledFill: =RGBA(244, 244, 244, 1)
+        DisplayMode: =If(User().Email = "julio.micheluzzi@siemens.com", DisplayMode.Edit, DisplayMode.Disabled)
+        Fill: =RGBA(211, 66, 9, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =70
+        HoverColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
+        OnSelect: |-
+            =Set(VarUser, "PMO")&
+            Navigate(MainScreen, Transition.None)
+        Size: =15
+        Text: ="Área PMO"
+        Width: =280
+        X: =205
+        Y: =620
+        ZIndex: =5
+
+    Icon6 As icon.Journal:
+        BorderColor: =RGBA(131, 24, 75, 1)
+        Color: =RGBA(246, 88, 16, 1)
+        DisabledBorderColor: =RGBA(166, 166, 166, 1)
+        DisabledColor: =RGBA(244, 244, 244, 1)
+        FocusedBorderThickness: =1
+        Height: =768
+        Icon: =Icon.Journal
+        Width: =683
+        X: =683
+        ZIndex: =6
+
+    Label1_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(131, 24, 75, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        DisabledColor: =RGBA(166, 166, 166, 1)
+        Height: =266
+        Size: =30
+        Text: ="Clique aqui para ver como funciona o aplicativo!"
+        Width: =364
+        X: =820
+        Y: =300
+        ZIndex: =7
+
