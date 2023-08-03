@@ -1530,63 +1530,11 @@
               "message": {
                 "text": "Ocorreu um erro ao executar a regra app-InefficientDelayLoading."
               }
-            },
-            {
-              "associatedRule": {
-                "id": "app-InefficientDelayLoading",
-                "index": 6
-              },
-              "descriptor": {
-                "id": "app-InefficientDelayLoading"
-              },
-              "message": {
-                "text": "Ocorreu um erro ao executar a regra app-InefficientDelayLoading."
-              }
             }
           ]
         }
       ],
       "results": [
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'MainScreen_salvo para garantir'.PdfViewer1.Document"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'MainScreen_salvo para garantir'.PdfViewer1.Document",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 6,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "VarPDF"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Document",
-                "module": "MainScreen_salvo para garantir",
-                "type": "'MainScreen_salvo para garantir'.PdfViewer1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "VarPDF"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 0
-        },
         {
           "locations": [
             {
@@ -1601,10 +1549,10 @@
                   "relativeAddress": 0
                 },
                 "region": {
-                  "charLength": 7,
+                  "charLength": 44,
                   "charOffset": 0,
                   "snippet": {
-                    "text": "Compact"
+                    "text": "screenshot('MainScreen_salvo para garantir')"
                   }
                 }
               },
@@ -1617,14 +1565,14 @@
           ],
           "message": {
             "arguments": [
-              "Compact"
+              "screenshot"
             ],
             "id": "issue"
           },
           "properties": {
             "level": "High"
           },
-          "ruleId": "app-ErrInvalidName",
+          "ruleId": "app-ErrUnknownFunction",
           "ruleIndex": 0
         },
         {
@@ -2473,17 +2421,14 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrInvalidName",
+              "id": "app-ErrUnknownFunction",
               "messageStrings": {
                 "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
+                  "text": "'{0}' is an unknown or unsupported function."
                 }
               },
               "properties": {
                 "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
                 "level": "High",
                 "primaryCategory": "formula",
                 "whyFix": ""

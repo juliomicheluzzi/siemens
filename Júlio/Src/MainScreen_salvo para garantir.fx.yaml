@@ -892,17 +892,10 @@
         FontWeight: =FontWeight.Semibold
         HoverColor: =RGBA(255, 255, 255, 1)
         HoverFill: =ColorFade(RGBA(211, 66, 9, 1), -20%)
-        OnSelect: =
+        OnSelect: =screenshot('MainScreen_salvo para garantir')
         Size: =15
         Text: ="Botão"
         X: =608
         Y: =686
         ZIndex: =5
-
-    PdfViewer1 As pdfViewer:
-        Document: =VarPDF
-        Visible: =false
-        X: =554
-        Y: =74
-        ZIndex: =6
 
