@@ -899,3 +899,10 @@
         Y: =686
         ZIndex: =5
 
+    PdfViewer1 As pdfViewer:
+        Document: =VarPDF
+        Visible: =false
+        X: =554
+        Y: =74
+        ZIndex: =6
+
